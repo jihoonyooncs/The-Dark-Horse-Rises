@@ -1,0 +1,23 @@
+﻿Build started 3/4/2016 12:38:58 AM.
+     1>Project "C:\Users\xxblu\Documents\DOC\Projects\TDKR\tdhr1.1\tdhr1.1\tdhr1.1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr1.1\tdhr1.1\main.cpp(37): error C2536: 'GameEngine::GameEngine::prevPos' : cannot specify explicit initializer for arrays
+                 c:\users\xxblu\documents\doc\projects\tdkr\tdhr1.1\tdhr1.1\main.cpp(37) : see declaration of 'GameEngine::prevPos'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr1.1\tdhr1.1\main.cpp(39): error C2797: 'GameEngine::redRectangle': list initialization inside member initializer list or non-static data member initializer is not implemented
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr1.1\tdhr1.1\main.cpp(41): error C2797: 'GameEngine::yellowRectangle': list initialization inside member initializer list or non-static data member initializer is not implemented
+                 c:\users\xxblu\documents\doc\projects\tdkr\tdhr1.1\tdhr1.1\main.cpp(37) : see declaration of 'GameEngine::prevPos'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr1.1\tdhr1.1\main.cpp(219): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr1.1\tdhr1.1\main.cpp(220): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr1.1\tdhr1.1\main.cpp(223): warning C4244: '+=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr1.1\tdhr1.1\main.cpp(224): warning C4244: '+=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr1.1\tdhr1.1\main.cpp(242): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr1.1\tdhr1.1\main.cpp(243): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr1.1\tdhr1.1\main.cpp(254): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr1.1\tdhr1.1\main.cpp(255): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Done Building Project "C:\Users\xxblu\Documents\DOC\Projects\TDKR\tdhr1.1\tdhr1.1\tdhr1.1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.10

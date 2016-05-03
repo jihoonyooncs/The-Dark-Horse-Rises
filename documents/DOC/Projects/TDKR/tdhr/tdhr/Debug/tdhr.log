@@ -1,0 +1,226 @@
+﻿Build started 3/16/2016 5:30:30 PM.
+     1>Project "C:\Users\xxblu\Documents\DOC\Projects\TDKR\tdhr\tdhr\tdhr.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt runner.cpp
+         runner.cpp
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(21): warning C4091: 'extern ' : ignored on left of 'AnimFrameDef' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(27): warning C4091: 'extern ' : ignored on left of 'AnimDef' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(34): warning C4091: 'extern ' : ignored on left of 'AnimData' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(37): warning C4091: 'extern ' : ignored on left of 'AABB' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(59): warning C4091: 'extern ' : ignored on left of 'Player' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(70): warning C4091: 'extern ' : ignored on left of 'Number' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(74): warning C4091: 'extern ' : ignored on left of 'Tree' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(84): warning C4091: 'extern ' : ignored on left of 'Star' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(89): warning C4091: 'extern ' : ignored on left of 'StarVec' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(94): warning C4091: 'extern ' : ignored on left of 'Cloud' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(110): warning C4091: 'extern ' : ignored on left of 'Diamond' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(121): warning C4091: 'extern ' : ignored on left of 'Object' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(126): warning C4091: 'extern ' : ignored on left of 'Camera' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(130): warning C4091: 'extern ' : ignored on left of 'Tile' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(135): warning C4091: 'extern ' : ignored on left of 'BGTile' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(140): warning C4091: 'extern ' : ignored on left of 'Platform' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(150): warning C4091: 'extern ' : ignored on left of 'Background' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(157): warning C4091: 'extern ' : ignored on left of 'Backdrop' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(160): warning C4091: 'extern ' : ignored on left of 'Fader' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\structandfunctions.h(164): warning C4091: 'extern ' : ignored on left of 'Sparkle' when no variable is declared
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(83): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(85): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(86): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(87): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(88): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(90): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(93): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(94): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(100): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(112): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(114): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(115): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(118): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(120): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(121): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(123): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(125): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(127): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(134): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(137): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(145): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(150): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(157): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(170): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(174): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(175): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(190): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(226): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(243): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(339): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(592): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(611): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(622): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(682): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(703): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(709): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(731): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(739): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(747): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(786): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(807): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(812): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(813): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(815): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(819): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(822): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(825): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(828): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(836): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(843): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(844): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(850): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(851): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(853): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(863): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(872): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(889): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(907): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(908): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(909): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(910): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(916): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(917): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(923): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(924): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(926): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(927): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(935): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(936): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(943): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(955): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(965): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(966): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(968): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(969): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(971): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(993): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1034): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1126): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1137): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1140): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1149): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1150): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1151): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1152): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1163): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1166): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1240): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1252): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1253): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1256): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1257): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1258): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1259): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1265): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1267): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1271): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1283): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1304): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1305): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1317): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1323): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1336): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1347): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1348): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1349): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1386): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1389): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1392): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1395): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1397): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1408): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1440): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1452): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1462): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1616): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1630): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1641): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1669): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1698): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1729): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1730): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1753): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1758): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1763): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1787): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1807): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1812): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1827): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1832): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1846): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1851): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1868): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1873): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1889): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1894): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1913): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1914): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1927): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1929): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1946): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1960): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1975): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1980): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(1997): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2002): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2018): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2023): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2041): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2055): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2060): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2078): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2091): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2096): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2114): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2135): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2140): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2158): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2184): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2201): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2242): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2261): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2281): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2282): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2286): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2289): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2293): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2313): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2314): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2319): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2322): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2326): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2346): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2347): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2351): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2353): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2359): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2379): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2380): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2390): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2399): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2424): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2447): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2448): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2454): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2487): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2503): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2514): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(2543): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(95): warning C4101: 'playerData' : unreferenced local variable
+     1>c:\users\xxblu\documents\doc\projects\tdkr\tdhr\tdhr\runner.cpp(203): warning C4101: 'screenShakeV' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\xxblu\Documents\DOC\Projects\TDKR\tdhr\Debug\tdhr.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib glew32.lib opengl32.lib fmod_vc.lib fmodL_vc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\xxblu\Documents\DOC\Projects\TDKR\tdhr\Debug\tdhr.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\xxblu\Documents\DOC\Projects\TDKR\tdhr\Debug\tdhr.lib" /MACHINE:X86 Debug\backgrounds.obj
+         Debug\runner.obj
+         Debug\structandfunctions.obj
+         tdhr.vcxproj -> C:\Users\xxblu\Documents\DOC\Projects\TDKR\tdhr\Debug\tdhr.exe
+     1>Done Building Project "C:\Users\xxblu\Documents\DOC\Projects\TDKR\tdhr\tdhr\tdhr.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.33

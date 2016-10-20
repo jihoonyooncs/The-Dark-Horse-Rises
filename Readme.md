@@ -14,16 +14,16 @@ One thing that this game taught me about programming is that nothing really goes
 The animation is handled by 3 structs (AnimFrameDef, AnimDef, and AnimData) and 3 functions (animTick, animSet, and animDraw). The structs define the necessary variables. AnimFrameDef holds the number of the frame and how long it stays on the screen. AnimDef defines an AnimFrameDef and also how many frames there are total in the animation. AnimData defines a pointer to AnimDef and defines the current frame, time to the next frame, and a boolean to set the animation to run or not. The functions run the animation, with animTick using the data to go to the next frame if conditions are met, animSet being used to set an animation to a certain state and frame, and animDraw to draw the character on the screen.
 <img src="struct.JPG" width="200">
 <img src="functions.JPG" width="480">
+One challenge was playing the right animation when the horse (main character) changes states. In the game, the horse transforms from a normal horse into Pegasus. During this transformation I ran into various bugs in the code with the animation not working properly. 
 
-###Collision
 
-###Physics
+###Physics/Collision
 
 ###Endless platforms
 
 ###Start/End Screens
 
-###Others (Organization of code, optimization, Framerates)
+###Others (Organization of code, optimization, framerates, etc)
 
 
 ##Notes and future changes

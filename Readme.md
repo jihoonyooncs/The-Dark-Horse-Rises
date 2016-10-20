@@ -18,11 +18,20 @@ One challenge was playing the right animation when the horse (main character) ch
 
 
 ###Physics/Collision
-Physics and collision gave me the most bugs and challenges of the entire project. Even simple things created some strange bugs that took me days to fix. 
+Physics and collision gave me the most bugs and challenges of the entire project. Even simple things created some strange bugs that took me several days to fix. At the beginning, a problem was the character not going past one block horizontally, because I had set the condition to 'when you touch a block, stop moving' to enforce gravity. To fix this, I moved the checking of whether the character was touching the ground to the physics loop, simply un-applying gravity when the horse touched the ground. Another small, related challenge was that when I did that, the character would be stuck under the platform if it was going fast enough downwards. I fixed this by moving it back up the amount it needed in order to be on the top most tile. Then, the horse could be seen going under the platform for a split second before jumping back up. To fix this, I moved the drawing functions after the physics loop. Other physics related challenges were hitting a tile at an angle while coming down from a jump, jittering (small, rapid up and down movements while standing on a platform), only detecting collision for the top tile and no other tile, colliding into multiple enemies at the same time, and many more. There were many other small, hard to fix bugs that I ran into with physics, and I eventually fixed them through debugging, memory breakpoints, print statements, or creating smaller simulations of parts of the code in another project. 
 
 ###Endless platforms
+I was initially stumped on how to make endless platforms that constantly kept generating and how I would manage all those maps at once. 
 
-###Start/End Screens
+###Stars
+One challenge was adding stars in the special stage. The special stage is an all the stars you can get type of level where there are no enemies and you just jump around and get all the stars you can get. However, because the level was so large, placing the stars one by one through coordinates would have taken much too long. After some struggle, I decded to implement a system where I could go into the game stage, click on where I wanted the stars, have temporary stars show up to show me what they would look like, and have all the coordinates be written to a text file and read into the code as a list of an object I called StarVec. These hold stars that can be picked up when touched and add to your gold count. This made it much faster to organize the stars and put in any pattern I wanted. I also added an undo functionality to speed up the process (I wouldn't have to restart when I made a mistake). 
+
+###Platforms 
+I used the same method as the stars to later on make platforms. These platforms didn't conform to the tile spaces (each map is a 2d Array), which created some problems, but with this method, I could place the platform anywhere I wanted and at any height relative to each other, so I could create a gentler or steeper slope. Because my mouse wasn't too accurate, I also made it so that when I was building these platforms, each tile would snap to a nearby tile horizontally if it was close enough, and you could make fine adjustments with your mouse. This, like the stars, allowed me to make many interesting platforms above the tile map that led to some interesting map layouts.
+
+###Diamonds
+The diamonds pop out of the mushrooms when the character jumps on them. They go to the right side of the screen and then slowly move up and down to the left. At first I thought I could just set upper and lower bounds and move it left, but the movement was incredibly robotic. I fixed this by creating a function that would move the diamonds in a parabolic motion to the left so that the motion would be much more fluid. I also ran other animations through this function to make the movement the powerups, coins going up to the counter
+
 
 ###Others (Organization of code, optimization, framerates, etc)
 

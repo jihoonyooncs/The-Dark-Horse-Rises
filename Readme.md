@@ -9,7 +9,6 @@ Building a game from scratch was initially more challenging than I thought it wo
 
 ###The Game and its Implementation
 The game was made in Visual Studio using C++, SDL, and OpenGL. Things like window size and functions to are set at the beginning. 
-![title.JPG]({{site.baseurl}}/title.JPG)
 
 ###Challenges
 One thing that this game taught me about programming is that nothing really goes according to plan. I would say oh, that seems easy to implement, and it would end up taking me 3 days of coding and debugging. 

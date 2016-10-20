@@ -12,9 +12,7 @@ One thing that this game taught me about programming is that nothing really goes
 
 ###Animation
 The animation is handled by 3 structs (AnimFrameDef, AnimDef, and AnimData) and 3 functions (animTick, animSet, and animDraw). The structs define the necessary variables. AnimFrameDef holds the number of the frame and how long it stays on the screen. AnimDef defines an AnimFrameDef and also how many frames there are total in the animation. AnimData defines a pointer to AnimDef and defines the current frame, time to the next frame, and a boolean to set the animation to run or not. The functions run the animation, with animTick using the data to go to the next frame if conditions are met, animSet being used to set an animation to a certain state and frame, and animDraw to draw the character on the screen.
-![functions.JPG]({{site.baseurl}}/functions.JPG)
-![struct.JPG]({{site.baseurl}}/struct.JPG)
-<img src="struct.JPG" width="400">
+<img src="struct.JPG" width="200">
 <img src="functions.JPG" width="480">
 
 ###Collision

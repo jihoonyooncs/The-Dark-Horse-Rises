@@ -18,6 +18,7 @@ One challenge was playing the right animation when the horse (main character) ch
 
 
 ###Physics/Collision
+Physics and collision gave me the most bugs and challenges of the entire project. Even simple things created some strange bugs that took me days to fix. 
 
 ###Endless platforms
 

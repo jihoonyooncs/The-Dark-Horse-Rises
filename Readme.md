@@ -1,4 +1,4 @@
-<img src="title.jpg" width="800">
+<img src="title.JPG" width="800">
 #The Dark Horse Rises
 
 ###Synopsis

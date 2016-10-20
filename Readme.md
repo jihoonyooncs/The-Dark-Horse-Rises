@@ -11,11 +11,22 @@ Building a game from scratch was initially more challenging than I thought it wo
 One thing that this game taught me about programming is that nothing really goes according to plan. I would say oh, that seems easy to implement, and it would end up taking me 3 days of coding and debugging. Here I'll try to concisely describe some key features and how I implemented them along with the challenges I ran into along the way.
 
 ###Animation
+The animation is handled by 3 structs (AnimFrameDef, AnimDef, and AnimData) and 3 functions (animTick, animSet, and animDraw). The structs define the necessary variables. AnimFrameDef holds the number of the frame and how long it stays on the screen. AnimDef defines an AnimFrameDef and also how many frames there are total in the animation. AnimData defines a pointer to AnimDef and defines the current frame, time to the next frame, and a boolean to set the animation to run or not. The functions run the animation, with animTick using the data to go to the next frame if conditions are met, animSet being used to set an animation to a certain state and frame, and animDraw to draw the character on the screen.
+![functions.JPG]({{site.baseurl}}/functions.JPG)
+![struct.JPG]({{site.baseurl}}/struct.JPG)
+<img src="struct.JPG" width="400">
+<img src="functions.JPG" width="480">
+
 ###Collision
+
 ###Physics
+
 ###Endless platforms
+
 ###Start/End Screens
-###Other Features
+
+###Others (Organization of code, optimization, Framerates)
+
 
 ##Notes and future changes
 Because of the way I created the executable file for this project at the time, you unfortunately need Visual Studio 2013 to run the game. This is something I will be coming back to and changing in the future.

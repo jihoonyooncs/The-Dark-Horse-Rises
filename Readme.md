@@ -38,3 +38,5 @@ The diamonds pop out of the mushrooms when the character jumps on them. They go 
 
 ##Notes and future changes
 Because of the way I created the executable file for this project at the time, you unfortunately need Visual Studio 2013 to run the game. This is something I will be coming back to and changing in the future.
+
+*I'm currently in the process of writing this page

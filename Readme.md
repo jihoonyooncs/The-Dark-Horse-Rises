@@ -4,6 +4,9 @@
 ##Synopsis
 The Dark Horse Rises was a game made over a span of a little over a month that I made using C++, SDL, and OpenGL in Visual Studio. It was a project I was very passionate about and still is my favorite project I have worked on so far. It got me passionate about programming and about game development. I wanted to make a game that was simple yet fun while feeling like a full game instead of a demo. Here I will go through the steps I took to make the game as well as explain parts of the code and the challenges and obstacles that I ran into while coding. 
 
+##How to Run the Game
+Because of the way I created the executable file for this project at the time, you unfortunately need Visual Studio 2013 to run the game. Also, because I didn't have time to get around to a fix, you need to turn on v-sync in your video driver settings. After that, you can download the files and run the file "runner.exe".
+
 ##Building a Game Engine
 Building a game from scratch was initially more challenging than I thought it would be. I wasn't sure how to make hard boundaries using coordinates, add a moving background with parallax, or even move the character around with the arrow keys in a smooth way. I started with the basics. First, make a platform where the player can walk on. Next, add multiple tiles so he can walk accross the map. Next, figure out a way to implement gravity. Then after that we need collision, collision detection for jumping, moving, staying still, etc. After that animation becomes important. You need different animations for every move, and it must react along with the position of the character with every input. The character should be able to traverse any terrain that the tile-based map can throw at it, whether it's collision from the bottom, side, or top. Hitboxes need to be implemented for different scenarios and have to match with the animation frame. Finally, different kinds of physics have to be implemented: jumping off of things, falling, getting hit, double jumping, triple jumping, gliding, etc. These were the basics of the game engine, but even they brought many unforseen and frustrating challenges.
 
@@ -80,7 +83,7 @@ One last thing I wanted to do was have platforms that went up and down, not just
 _This is the first part of the section of code that handles the slopes. I ran into some troubles with the first and last tiles of each section of floating platforms, so that's why the code's a little long. It would also sometimes just go through the tiles if the difference between a tile to the next one was too large. For the uphill, this was fixed by modifying the equation. As you can see, here, I calculate the hypotenuse with the four variables at the top and then use them to set the player's location._
 
 ###Others (Organization of code, optimization, framerates, etc)
-Optimization came mostly in the form of cleaning up code, creating functions to handle repeated code, and making sure the game didn't have to draw any more than it had to, implemented via boundaries and buckets. A strange problem I had was that on different monitors the game would run at different speeds. I later figured out that it was because of the screen's v-sync option on some computers. I normalized this by changing all the instances of movement inside the game to a function of deltaTime, which would be the time between the 'ticks'. 
+Optimization came mostly in the form of cleaning up code, creating functions to handle repeated code, and making sure the game didn't have to draw any more than it had to, implemented via boundaries and buckets. A strange problem I had was strange stutters and improper sync between the character and the background. I fixed this by capping the framerate to 60.
 
 <img src="dreamland.jpg" width="700">
 
@@ -96,4 +99,4 @@ _The end screen. I spent a little too much time getting every number to quickly 
 
 
 ##Notes and future changes
-When I was finishing up this game, I wanted to get to 2D lighting, but I didn't have the chance to get to it. If I have the time, I plan on trying to implement that. Also, Because of the way I created the executable file for this project at the time, you unfortunately need Visual Studio 2013 to run the game. This is something I will be coming back to and changing in the future.
+When I was finishing up this game, I wanted to get to 2D lighting, but I didn't have the chance to get to it. If I have the time, I plan on trying to implement that. There are still quite a few bugs so I intend to come back and fix those as well.

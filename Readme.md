@@ -47,6 +47,10 @@ _This is just one of the star maps. This one continues for much longer to the ri
 ###Platforms 
 I used the same method as the stars to later on make platforms. These platforms didn't conform to the tile spaces (each map is a 2d Array), which created some problems, but with this method, I could place the platform anywhere I wanted and at any height relative to each other, so I could create a gentler or steeper slope. Because my mouse wasn't too accurate, I also made it so that when I was building these platforms, each tile would snap to a nearby tile horizontally if it was close enough, and you could make fine adjustments with your mouse. This, like the stars, allowed me to make many interesting platforms above the tile map that led to some interesting map layouts.
 
+<img src="bonus.JPG" width="700">
+![bonus.JPG]({{site.baseurl}}/bonus.JPG)
+
+
 ###Diamonds
 The diamonds pop out of the mushrooms when the character jumps on them. They go to the right side of the screen and then slowly move up and down to the left. At first I thought I could just set upper and lower bounds and move it left, but the movement was incredibly robotic. I fixed this by creating a function that would move the diamonds in a parabolic motion to the left so that the motion would be much more fluid. I also ran other animations through this function to make the movement much more fluid: the powerups, coins going up to the counter when they've been picked up, the "speed up" sign coming down from the right side of the screen and then pausing in mid screen and then going off to the left, and the trajectory of stars and diamonds as they are sucked into the character when he has the magnet powerup.
 
@@ -65,6 +69,11 @@ _This is the first part of the section of code that handles the slopes. I ran in
 
 ###Others (Organization of code, optimization, framerates, etc)
 Optimization came mostly in the form of cleaning up code, creating functions to handle repeated code, and making sure the game didn't have to draw any more than it had to, implemented via boundaries and buckets. A strange problem I had was that on different monitors the game would run at different speeds. I later figured out that it was because of the screen's v-sync option on some computers. I normalized this by changing all the instances of movement inside the game to a function of deltaTime, which would be the time between the 'ticks'. 
+
+<img src="end.JPG" width="700">
+
+_The end screen. I spent a little too much time getting every number to quickly count up from 0 so it would look cooler_
+![end.JPG]({{site.baseurl}}/end.JPG)
 
 
 ##Notes and future changes

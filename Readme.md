@@ -83,11 +83,9 @@ _This is the first part of the section of code that handles the slopes. I ran in
 Optimization came mostly in the form of cleaning up code, creating functions to handle repeated code, and making sure the game didn't have to draw any more than it had to, implemented via boundaries and buckets. A strange problem I had was that on different monitors the game would run at different speeds. I later figured out that it was because of the screen's v-sync option on some computers. I normalized this by changing all the instances of movement inside the game to a function of deltaTime, which would be the time between the 'ticks'. 
 
 <img src="dreamland.jpg" width="700">
-![dreamland.jpg]({{site.baseurl}}/dreamland.jpg)
 _When you fill up your bar, you go into a special stage where you can pick up all the stars your heart desires!! Each time you fill up that bar, you'll get a massive point boost. Also..._
 
 <img src="pegasus.jpg" width="700">
-![pegasus.jpg]({{site.baseurl}}/pegasus.jpg)
 _You transform into Pegasus! You have reached your true form. You can now jump 3 times instead of 2. However, this doesn't last for long after you exit the special stage. That wouldn't be fair._
 
 <img src="end.JPG" width="700">

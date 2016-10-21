@@ -73,7 +73,7 @@ _This is the part that makes the diamonds fly out to the right and then move up 
 
 <img src="jump.jpg" width ="700">
 
-_When the horse lands on a mushroom, it bounds off of it and a diamond comes out. However, if the mushroom is hit from the side, the horse dies :(_
+_When the horse lands on a mushroom, it bounces off of it and a diamond comes out. However, if the mushroom is hit from the side, the horse dies :(_
 
 ###Slopes
 One last thing I wanted to do was have platforms that went up and down, not just straight. I wanted platforms that were angled, hills, and unique setups with  multiple platforms. This was implemented with the platforms mentioned previously, but getting the physics right was challenging. I tried to fix this by raising the player up to the hypotenuse of the block it is on and the next block. That way if the character is going up a slope, even though the slope is not smooth visually, the character's movements are smooth. I had some more trouble with going downhill, as the gravity and the measurements to have the horse stay on the hypotenuse conflicted with each other.

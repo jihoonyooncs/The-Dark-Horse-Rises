@@ -71,7 +71,7 @@ _This is the part that makes the diamonds fly out to the right and then move up 
 
 <img src="dia2.JPG" width="350">
 
-<img src="jump" width ="700">
+<img src="jump.JPG" width ="700">
 ![jump.jpg]({{site.baseurl}}/jump.jpg)
 _When the horse lands on a mushroom, it bounds off of it and a diamond comes out. However, if the mushroom is hit from the side, the horse dies :(_
 
@@ -88,7 +88,6 @@ Optimization came mostly in the form of cleaning up code, creating functions to 
 <img src="end.JPG" width="700">
 
 _The end screen. I spent a little too much time getting every number to quickly count up from 0 so it would look cooler_
-![end.JPG]({{site.baseurl}}/end.JPG)
 
 
 ##Notes and future changes

@@ -30,6 +30,7 @@ _The first part of the physics loop that covers gravity, the physics timer, and 
 
 <img src="jump2.JPG" width="700">
 ![jump2.jpg]({{site.baseurl}}/jump2.jpg)
+
 _There are spikes that pop up halfway through the screen. You must jump over them!_
 
 ###Endless platforms

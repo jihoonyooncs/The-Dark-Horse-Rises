@@ -51,7 +51,7 @@ _Oh and there's fireballs._
 ###Stars
 One challenge was adding stars in the special stage. The special stage is an all the stars you can get type of level where there are no enemies and you just jump around and get all the stars you can get. However, because the level was so large, placing the stars one by one through coordinates would have taken much too long. After some struggle, I decded to implement a system where I could go into the game stage, click on where I wanted the stars, have temporary stars show up to show me what they would look like, and have all the coordinates be written to a text file and read into the code as a list of an object I called StarVec. These hold stars that can be picked up when touched and add to your gold count. This made it much faster to organize the stars and put in any pattern I wanted. I also added an undo functionality to speed up the process (I wouldn't have to restart when I made a mistake). 
 
-<img src="star.JPG" width="880">
+<img src="fireballs.JPG" width="880">
 
 _This is just one of the star maps. This one continues for much longer to the right. As you can see, it would have been impossible to do manually._
 

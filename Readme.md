@@ -28,6 +28,10 @@ Physics and collision gave me the most bugs and challenges of the entire project
 
 _The first part of the physics loop that covers gravity, the physics timer, and collision with the main tiles. tempBG is the 2 map buffer. tileMap is the 2d array holding the map. The boxes are hitboxes for each tile. 'player.y-=ydif' is where the player is kept from going into the tiles._
 
+<img src="jump2.JPG" width="700">
+![jump2.jpg]({{site.baseurl}}/jump2.jpg)
+_There are spikes that pop up halfway through the screen. You must jump over them!_
+
 ###Endless platforms
 I was initially stumped on how to make endless platforms that constantly kept generating and how I would manage all those maps at once. I fixed this by creating a two map buffer, where two out of several maps would be randomly stored in a buffer, and because the maps are so big you only see one and switch every 20 seconds or so. The buffer allows maps to constantly be fed into the right side of the screen. This allowed for one layer of optimization, where you don't ever need to draw more than two maps. Another layer of optimization was only drawing the tiles that were on the map. These two considerations made the game run much smoother and better. 
 
@@ -35,6 +39,13 @@ I was initially stumped on how to make endless platforms that constantly kept ge
 
 _This is the part of code that advances the buffer and adds a new map. Because there are 3 levels, it adds a different pool of random maps depending on the levels. Here, tempBG is the buffer (it holds 2 maps). At the beginning, I shift the buffer over 1 since tempBG[0] has already gone off the left side of the screen. Then I add a new map from the appropriate random list of maps (depending on the level). _
 
+<img src="magnet.JPG" width="700">
+![magnet.jpg]({{site.baseurl}}/magnet.jpg)
+_There are three powerups: magnet, shield, and wings. The magnet allows you to suck in all coins and diamonds. The shield allows you to survive spikes or mushrooms once. The wings allow you to fly accross the screen, destroying all mushrooms and spikes and also collecting all the loot. It's awesome._
+
+<img src="fireballs.JPG" width="700">
+![fireballs.jpg]({{site.baseurl}}/fireballs.jpg)
+_Oh and there's fireballs._
 
 ###Stars
 One challenge was adding stars in the special stage. The special stage is an all the stars you can get type of level where there are no enemies and you just jump around and get all the stars you can get. However, because the level was so large, placing the stars one by one through coordinates would have taken much too long. After some struggle, I decded to implement a system where I could go into the game stage, click on where I wanted the stars, have temporary stars show up to show me what they would look like, and have all the coordinates be written to a text file and read into the code as a list of an object I called StarVec. These hold stars that can be picked up when touched and add to your gold count. This made it much faster to organize the stars and put in any pattern I wanted. I also added an undo functionality to speed up the process (I wouldn't have to restart when I made a mistake). 
@@ -58,6 +69,10 @@ The diamonds pop out of the mushrooms when the character jumps on them. They go 
 _This is the part that makes the diamonds fly out to the right and then move up and down in a parabolic motion to the left. diamondList is the list of diamonds on the map, updateDiamond is the function handling the movement, and I'm erasing them if they reach the left side of the screen. Below is the updateDiamond function._
 
 <img src="dia2.JPG" width="350">
+
+<img src="jump" width ="700">
+![jump.jpg]({{site.baseurl}}/jump.jpg)
+_When the horse lands on a mushroom, it bounds off of it and a diamond comes out. However, if the mushroom is hit from the side, the horse dies :(_
 
 ###Slopes
 One last thing I wanted to do was have platforms that went up and down, not just straight. I wanted platforms that were angled, hills, and unique setups with  multiple platforms. This was implemented with the platforms mentioned previously, but getting the physics right was challenging. I tried to fix this by raising the player up to the hypotenuse of the block it is on and the next block. That way if the character is going up a slope, even though the slope is not smooth visually, the character's movements are smooth. I had some more trouble with going downhill, as the gravity and the measurements to have the horse stay on the hypotenuse conflicted with each other.

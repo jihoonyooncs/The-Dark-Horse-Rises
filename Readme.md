@@ -52,7 +52,9 @@ _This is the part that makes the diamonds fly out to the right and then move up 
 
 ###Slopes
 One last thing I wanted to do was have platforms that went up and down, not just straight. I wanted platforms that were angled, hills, and unique setups with  multiple platforms. This was implemented with the platforms mentioned previously, but getting the physics right was challenging. I tried to fix this by raising the player up to the hypotenuse of the block it is on and the next block. That way if the character is going up a slope, even though the slope is not smooth visually, the character's movements are smooth. I had some more trouble with going downhill, as the gravity and the measurements to have the horse stay on the hypotenuse conflicted with each other.
-
+<img src="slope.JPG" width="500">
+_This is the first part of the section of code that handles the slopes. I ran into some troubles with the first and last tiles of each section of floating platforms, so that's why the code's a little long. It would also sometimes just go through the tiles if the difference between a tile to the next one was too large. For the uphill, this was fixed by modifying the equation. As you can see, here, I calculate the hypotenuse with the four variables at the top and then use them to set the player's location._
+![slope.JPG]({{site.baseurl}}/slope.JPG)
 
 ###Others (Organization of code, optimization, framerates, etc)
 Optimization came mostly in the form of cleaning up code, creating functions to handle repeated code, and making sure the game didn't have to draw any more than it had to, implemented via boundaries and buckets. A strange problem I had was that on different monitors the game would run at different speeds. I later figured out that it was because of the screen's v-sync option on some computers. I normalized this by changing all the instances of movement inside the game to a function of deltaTime, which would be the time between the 'ticks'. 

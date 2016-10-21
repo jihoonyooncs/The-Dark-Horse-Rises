@@ -29,7 +29,6 @@ Physics and collision gave me the most bugs and challenges of the entire project
 _The first part of the physics loop that covers gravity, the physics timer, and collision with the main tiles. tempBG is the 2 map buffer. tileMap is the 2d array holding the map. The boxes are hitboxes for each tile. 'player.y-=ydif' is where the player is kept from going into the tiles._
 
 <img src="jump2.jpg" width="700">
-![jump2.jpg]({{site.baseurl}}/jump2.jpg)
 
 _There are spikes that pop up halfway through the screen. You must jump over them!_
 
@@ -41,11 +40,10 @@ I was initially stumped on how to make endless platforms that constantly kept ge
 _This is the part of code that advances the buffer and adds a new map. Because there are 3 levels, it adds a different pool of random maps depending on the levels. Here, tempBG is the buffer (it holds 2 maps). At the beginning, I shift the buffer over 1 since tempBG[0] has already gone off the left side of the screen. Then I add a new map from the appropriate random list of maps (depending on the level). _
 
 <img src="magnet.jpg" width="700">
-![magnet.jpg]({{site.baseurl}}/magnet.jpg)
 _There are three powerups: magnet, shield, and wings. The magnet allows you to suck in all coins and diamonds. The shield allows you to survive spikes or mushrooms once. The wings allow you to fly accross the screen, destroying all mushrooms and spikes and also collecting all the loot. It's awesome._
 
 <img src="fireballs.jpg" width="700">
-![fireballs.jpg]({{site.baseurl}}/fireballs.jpg)
+
 _Oh and there's fireballs._
 
 ###Stars

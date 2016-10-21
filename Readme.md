@@ -7,7 +7,7 @@ The Dark Horse Rises was a game made over a span of a little over a month that I
 ##Building a Game Engine
 Building a game from scratch was initially more challenging than I thought it would be. I wasn't sure how to make hard boundaries using coordinates, add a moving background with parallax, or even move the character around with the arrow keys in a smooth way. I started with the basics. First, make a platform where the player can walk on. Next, add multiple tiles so he can walk accross the map. Next, figure out a way to implement gravity. Then after that we need collision, collision detection for jumping, moving, staying still, etc. After that animation becomes important. You need different animations for every move, and it must react along with the position of the character with every input. The character should be able to traverse any terrain that the tile-based map can throw at it, whether it's collision from the bottom, side, or top. Hitboxes need to be implemented for different scenarios and have to match with the animation frame. Finally, different kinds of physics have to be implemented: jumping off of things, falling, getting hit, double jumping, triple jumping, gliding, etc. These were the basics of the game engine, but even they brought many unforseen and frustrating challenges.
 
-<img src="dia.JPG" width="600">
+<img src="begin.JPG" width="600">
 
 _The premise of the game: A horse leaves his owner to find out who he truly is. (Also, notice the flowers, they bloom when he runs by them)_
 

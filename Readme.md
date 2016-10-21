@@ -22,20 +22,20 @@ Physics and collision gave me the most bugs and challenges of the entire project
 
 <img src="1.JPG" width="800">
 
-_The first part of the physics loop that covers gravity, the physics timer, and collision with the main tiles._
+_The first part of the physics loop that covers gravity, the physics timer, and collision with the main tiles. tempBG is the 2 map buffer. tileMap is the 2d array holding the map. The boxes are hitboxes for each tile. 'player.y-=ydif' is where the player is kept from going into the tiles._
 
 ###Endless platforms
 I was initially stumped on how to make endless platforms that constantly kept generating and how I would manage all those maps at once. I fixed this by creating a two map buffer, where two out of several maps would be randomly stored in a buffer, and because the maps are so big you only see one and switch every 20 seconds or so. The buffer allows maps to constantly be fed into the right side of the screen. This allowed for one layer of optimization, where you don't ever need to draw more than two maps. Another layer of optimization was only drawing the tiles that were on the map. These two considerations made the game run much smoother and better. 
 
-<img src="2.JPG" width="600">
+<img src="2.JPG" width="500">
 
-_This is the part of code that advances the buffer and adds a new map. Becaise there are 3 levels, it adds a different pool of random maps depending on the levels. Here, tempBG is the buffer (it holds 2 maps), lvl are the levels, _
+_This is the part of code that advances the buffer and adds a new map. Because there are 3 levels, it adds a different pool of random maps depending on the levels. Here, tempBG is the buffer (it holds 2 maps). At the beginning, I shift the buffer over 1 since tempBG[0] has already gone off the left side of the screen. Then I add a new map from the appropriate random list of maps (depending on the level). _
 
 
 ###Stars
 One challenge was adding stars in the special stage. The special stage is an all the stars you can get type of level where there are no enemies and you just jump around and get all the stars you can get. However, because the level was so large, placing the stars one by one through coordinates would have taken much too long. After some struggle, I decded to implement a system where I could go into the game stage, click on where I wanted the stars, have temporary stars show up to show me what they would look like, and have all the coordinates be written to a text file and read into the code as a list of an object I called StarVec. These hold stars that can be picked up when touched and add to your gold count. This made it much faster to organize the stars and put in any pattern I wanted. I also added an undo functionality to speed up the process (I wouldn't have to restart when I made a mistake). 
 
-<img src="star.JPG" width="800">
+<img src="star.JPG" width="880">
 
 _This is just one of the star maps. This one continues for much longer to the right. As you can see, it would have been impossible to do manually._
 
@@ -46,16 +46,16 @@ I used the same method as the stars to later on make platforms. These platforms 
 ###Diamonds
 The diamonds pop out of the mushrooms when the character jumps on them. They go to the right side of the screen and then slowly move up and down to the left. At first I thought I could just set upper and lower bounds and move it left, but the movement was incredibly robotic. I fixed this by creating a function that would move the diamonds in a parabolic motion to the left so that the motion would be much more fluid. I also ran other animations through this function to make the movement much more fluid: the powerups, coins going up to the counter when they've been picked up, the "speed up" sign coming down from the right side of the screen and then pausing in mid screen and then going off to the left, and the trajectory of stars and diamonds as they are sucked into the character when he has the magnet powerup.
 
-<img src="dia.JPG" width="700">
+<img src="dia.JPG" width="600">
 
 _This is the part that makes the diamonds fly out to the right and then move up and down in a parabolic motion to the left. diamondList is the list of diamonds on the map, updateDiamond is the function handling the movement, and I'm erasing them if they reach the left side of the screen. Below is the updateDiamond function._
 
-<img src="dia2.JPG" width="300">
+<img src="dia2.JPG" width="350">
 
 ###Slopes
 One last thing I wanted to do was have platforms that went up and down, not just straight. I wanted platforms that were angled, hills, and unique setups with  multiple platforms. This was implemented with the platforms mentioned previously, but getting the physics right was challenging. I tried to fix this by raising the player up to the hypotenuse of the block it is on and the next block. That way if the character is going up a slope, even though the slope is not smooth visually, the character's movements are smooth. I had some more trouble with going downhill, as the gravity and the measurements to have the horse stay on the hypotenuse conflicted with each other.
 
-<img src="slope.JPG" width="600">
+<img src="slope.JPG" width="650">
 
 _This is the first part of the section of code that handles the slopes. I ran into some troubles with the first and last tiles of each section of floating platforms, so that's why the code's a little long. It would also sometimes just go through the tiles if the difference between a tile to the next one was too large. For the uphill, this was fixed by modifying the equation. As you can see, here, I calculate the hypotenuse with the four variables at the top and then use them to set the player's location._
 

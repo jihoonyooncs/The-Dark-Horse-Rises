@@ -48,7 +48,7 @@ The diamonds pop out of the mushrooms when the character jumps on them. They go 
 _This is the part that makes the diamonds fly out to the right and then move up and down in a parabolic motion to the left. diamondList is the list of diamonds on the map, updateDiamond is the function handling the movement, and I'm erasing them if they reach the left side of the screen. Below is the updateDiamond function._
 <img src="dia2.JPG" width="500">
 ![dia.JPG]({{site.baseurl}}/dia.JPG)
-
+![dia2.JPG]({{site.baseurl}}/dia2.JPG)
 
 ###Slopes
 One last thing I wanted to do was have platforms that went up and down, not just straight. I wanted platforms that were angled, hills, and unique setups with  multiple platforms. This was implemented with the platforms mentioned previously, but getting the physics right was challenging. I tried to fix this by raising the player up to the hypotenuse of the block it is on and the next block. That way if the character is going up a slope, even though the slope is not smooth visually, the character's movements are smooth. I had some more trouble with going downhill, as the gravity and the measurements to have the horse stay on the hypotenuse conflicted with each other.

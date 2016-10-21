@@ -72,7 +72,7 @@ _This is the part that makes the diamonds fly out to the right and then move up 
 <img src="dia2.JPG" width="350">
 
 <img src="jump.jpg" width ="700">
-![jump.jpg]({{site.baseurl}}/jump.jpg)
+
 _When the horse lands on a mushroom, it bounds off of it and a diamond comes out. However, if the mushroom is hit from the side, the horse dies :(_
 
 ###Slopes
